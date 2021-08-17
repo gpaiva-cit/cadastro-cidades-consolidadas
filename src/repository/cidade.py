@@ -1,0 +1,17 @@
+insert = (
+    "INSERT INTO CIDADE ("
+        "cidade_uf, "
+        "cidade, "
+        "uf, "
+        "micro_regiao, "
+        "cidade_ddd_principal, "
+        "area_territorial"
+    ") VALUES ("
+        "%(cidade_uf)s, "
+        "%(cidade)s, "
+        "%(uf)s, "
+        "%(micro_regiao)s, "
+        "%(cidade_ddd_principal)s, "
+        "%(area_territorial)s"
+    ");"
+)
